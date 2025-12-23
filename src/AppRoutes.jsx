@@ -3,6 +3,7 @@ import Login from "./Components/Login";
 import CreateAccount from "./Components/CreateAccount";
 import PhoneVerification from "./Components/PhoneVerification";
 import OrganizationSetup from "./Components/OrganizationSetup";
+import AccountSetup from "./Components/AccountSetup";
 
 
 const AppRoutes = () => {
@@ -12,6 +13,7 @@ const AppRoutes = () => {
       <Route path="/create-account" element={<CreateAccount/>} />
       <Route path="/phone-verification" element={<PhoneVerification/>} />
       <Route path="/organization-setup" element={<OrganizationSetup/>} />
+      <Route path="/account-setup" element={<AccountSetup/>} />
      
     </Routes>
   );
